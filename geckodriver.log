@@ -1,0 +1,535 @@
+1499414576294	geckodriver	INFO	Listening on 127.0.0.1:63035
+1499414578372	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499414579948	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499414581498	Marionette	INFO	Listening on port 63041
+1499414582009	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 7060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1499414591418	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499414614719	geckodriver	INFO	Listening on 127.0.0.1:63064
+1499414616797	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499414618459	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499414620011	Marionette	INFO	Listening on port 63070
+1499414620754	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499414685529	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 3264] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 3264] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1499414722785	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+rovider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499415129916	geckodriver	INFO	Listening on 127.0.0.1:63205
+1499415132020	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499415134258	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499415135716	Marionette	INFO	Listening on port 63211
+1499415136368	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4600AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+[Child 5736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1499415153596	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1499415470293	geckodriver	INFO	Listening on 127.0.0.1:63367
+1499415472387	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499415473965	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499415475657	Marionette	INFO	Listening on port 63373
+1499415476377	Marionette	WARN	TLS certificate errors will be ignored for this session
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1717:11
+LocalDebuggerTransport.prototype.send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1717, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1717:11
+LocalDebuggerTransport.prototype.send/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1717, column: 11
+1499415540850	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter142
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x84000F,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+[Child 4020] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x840007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+[Child 4020] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1499415810904	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) ChanneJavaScript error: https://www.wykop.pl/static/wykoppl/s/36bef9071a63c3d66297d9cb4f445fdd.js, line 2: TypeError: a.ownerDocument.defaultView is null
+JavaScript error: https://s372.mxcdn.net/bb-mx/serve/mtrcs_646058.js, line 30: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s372.mxcdn.net/bb-mx/serve/mtrcs_618288.js, line 30: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://bbcdn-bbnaut.ibillboard.com/library/bbnaut-lib-1.8.8.min.js, line 7: NS_ERROR_NOT_INITIALIZED: 
+ROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1499415832287	geckodriver	INFO	Listening on 127.0.0.1:63855
+1499415834412	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499415836148	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499415837832	Marionette	INFO	Listening on port 63863
+1499415838538	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499415903546	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x84000F,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x840007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x840007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+[Child 6384] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1499416092989	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+ge]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x460102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4600AB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+1499416091592	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499416110753	geckodriver	INFO	Listening on 127.0.0.1:64502
+1499416112847	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499416114623	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499416116211	Marionette	INFO	Listening on port 64508
+1499416116663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/content.js, line 300: TypeError: div is null
+1499416167127	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499416172535	geckodriver	INFO	Listening on 127.0.0.1:64747
+1499416174613	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499416176158	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499416177590	Marionette	INFO	Listening on port 64754
+1499416178009	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499416222896	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499416233791	geckodriver	INFO	Listening on 127.0.0.1:64978
+1499416235901	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499416237399	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499416238922	Marionette	INFO	Listening on port 64984
+1499416239340	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 7544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1499416275536	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499416375527	geckodriver	INFO	Listening on 127.0.0.1:65176
+1499416377715	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499416379316	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499416380841	Marionette	INFO	Listening on port 65182
+1499416381285	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499416445502	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 3197: TypeError: this.tabs is undefined
+1499416459178	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499418045024	geckodriver	INFO	Listening on 127.0.0.1:51031
+1499418047117	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418048694	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418050239	Marionette	INFO	Listening on port 51037
+1499418050693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499418115456	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1499418156859	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499418160082	geckodriver	INFO	Listening on 127.0.0.1:51094
+1499418162176	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418163584	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418165000	Marionette	INFO	Listening on port 51100
+1499418165427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499418232750	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 7912] WARNING: pipe error: 109: file c:/builds/moz2_s1499418286316	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418287921	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418289502	Marionette	INFO	Listening on port 51162
+1499418289909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499418354537	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1499418356628	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinn1499418358354	Marionette	INFO	Listening on port 51218
+1499418359043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499418390332	addons.xpi-utils	ERROR	Failed to write add-ons1499418391406	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418392851	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418394250	Marionette	INFO	Listening on port 51279
+1499418394744	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1499418404295	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499418407277	geckodriver	INFO	Listening on 127.0.0.1:51304
+1499418409387	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418410925	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418412508	Marionette	INFO	Listening on port 51310
+1499418412963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499418430253	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499418433641	geckodriver	INFO	Listening on 127.0.0.1:51332
+1499418435734	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418437308	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418438716	Marionette	INFO	Listening on port 51339
+1499418439149	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499418449674	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499418452567	geckodriver	INFO	Listening on 127.0.0.1:51366
+1499418454676	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418456330	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418457727	Marionette	INFO	Listening on port 51372
+1499418458150	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3476] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1499418513597	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499418540973	geckodriver	INFO	Listening on 127.0.0.1:51399
+1499418543067	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418544524	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418546012	Marionette	INFO	Listening on port 51405
+1499418546476	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 1312] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 1312] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1499418567514	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
+1499418577980	geckodriver	INFO	Listening on 127.0.0.1:51509
+1499418580073	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418581498	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418582865	Marionette	INFO	Listening on port 51515
+1499418583493	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 816] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-esr52-w32-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2152
+1499418656616	geckodriver	INFO	Listening on 127.0.0.1:52813
+1499418658663	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1499418659151	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3864 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1499418659811	Marionette	INFO	Listening on port 52819
+1499418660244	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1499420671131	addons.xpi-utils	ERROR	Failed to write add-ons list to profile directory: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.setCharPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.writeAddonsList :: line 1536"  data: no] Stack trace: this.XPIDatabase.writeAddonsList()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1536 < this.XPIProvider.shutdown()@resource://gre/modules/addons/XPIProvider.jsm:2981 < _startProvider/AMProviderShutdown/<()@resource://gre/modules/AddonManager.jsm:805 < Promise()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:386 < _startProvider/AMProviderShutdown()@resource://gre/modules/AddonManager.jsm:803 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < AddonManagerInternal.shutdownManager<()@resource://gre/modules/AddonManager.jsm:1204 < TaskImpl_run()@resource://gre/modules/Task.jsm:319 < TaskImpl()@resource://gre/modules/Task.jsm:277 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:252 < Barrier/this.client.addBlocker/promise</trigger()@resource://gre/modules/AsyncShutdown.jsm:719 < Barrier.prototype<._wait()@resource://gre/modules/AsyncShutdown.jsm:866 < Barrier.prototype<.wait()@resource://gre/modules/AsyncShutdown.jsm:850 < Spinner.prototype.observe()@resource://gre/modules/AsyncShutdown.jsm:533
